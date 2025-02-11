@@ -4,12 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <title>Flexbox crash course</title>
 </head>
 
 <body>
-    Hello
+
+    <div class="flex flex-nowrap">
+        <div class="p-2 bg-yellow-200">This is Block 1 - making it long </div>
+        <div class="p-2 bg-red-200">This is Block 2</div>
+        <div class="p-2 bg-blue-200">This is Block 3 with some extra content</div>
+        <div class="p-2 bg-green-200">This is Block 4 - making this long as welll</div>
+    </div>
 </body>
 
 </html>
